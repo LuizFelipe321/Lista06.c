@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+/*Escreva um programa que armazene as idades dos alunos que estão presentes em uma aula da
+disciplina de Programação de Sistemas Embarcados. Considere que o vetor possa conter até 60
+registros. Sabe-se que, em uma dada aula, alguns alunos podem ter faltado. Com isso, leia
+elementos até que seja digitado um valor 0 ou enquanto a quantidade de alunos for inferior à
+capacidade do vetor. Imprima:
+Pontifícia Universidade Católica de Minas Gerais
+Instituto de Ciências Exatas e Informática (ICEI)
+Engenharia de Computação
+Disciplina: Programação de Sistemas Embarcados
+● Idade de todos os alunos presentes na aula (não imprimir idades não cadastradas).
+● Idade de todos os alunos com idade superior à média*/
+
+int atividade06(){
+    int idade, alunos, i, valida = 1;
+    int vetor[60]; //registro de aulas
+
+    printf("Digite a quantidade de alunos");
+    scanf("%d", &alunos);
+
+if (valida == 1){
+    for(i=0; qtd < 60; i++){
+
+        printf("Digite idade");
+    }
+
+if (){
+    if ()
+}
+}
