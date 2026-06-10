@@ -7,27 +7,28 @@ utilizado na criptografia.*/
 
 int main(){
     int i, chave, n;
-    int criptografada[2];
-    int original[2];
+    int criptografada[10]; //variavel vetores inteiros para armazenar mensagem criptografada
+    int original[10]; //variavel vetores inteiros para armazenar mensagem original
 
-    printf("Digite a chave:\n");
+    printf("Digite a chave:\n"); //usuario especifica o deslocamento (chave)
     scanf("%d", &chave);
 
     printf("Quantidade de numeros\n");
     scanf("%d", &n);
 
-    printf("original\n");
-    for(i=0; i < n; i++) {
+    printf("Mensagens originais\n");
+    for(i=0; i < n; i++) { // contador i é aumentado até atingir a ultima quantidade inteira menor que n digitada
         scanf("%d", &original[i]);
     }
 
-    printf("criptografia\n");
+    printf("Mensagens criptografadas\n");
     for (i=0; i < n; i++){
         scanf("%d", &criptografada[i]);
     }
 
     for(i=0; i < n; i++){
-       criptografada[i] = original[i] + chave;
+       criptografada[i] = original[i] + chave; //criptografada armazena vetores original + valor chave digitada pelo usuario
+                                               //chave (deslocamento)
     }
 
     /*exibindo na tela vetor original*/
