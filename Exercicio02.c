@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int atividade2() {
+int main() {
     int senha[4];
     int i;
     int possuiPar = 0;
