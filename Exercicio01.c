@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int atividade01() {
-    float vetor[5];
-    float dobro[5];
+int main() {
+    float vetor[5]; //
+    float vetorDobro[5];
     int i;
 
     // Leitura dos 5 números
@@ -12,18 +12,18 @@ int atividade01() {
 
     // Geração do vetor com os dobros
     for(i = 0; i < 5; i++) {
-        dobro[i] = vetor[i] * 2;
+        vetorDobro[i] = vetor[i] * 2; //vetores * (seu dobro)
     }
 
-    // Exibição dos vetores
+    // Exibição dos vetores na tela
     printf("Vetor original:\n");
     for(i = 0; i < 5; i++) {
         printf("%.2f ", vetor[i]);
     }
 
-    printf("\n\nVetor com o dobro dos valores:\n");
+    printf("\n\nVetor com o dobro dos valores:\n"); //exibicao dos valsores dos vetores dobrados na tela
     for(i = 0; i < 5; i++) {
-        printf("%.2f ", dobro[i]);
+        printf("%.2f ", vetorDobro[i]);
     }
 
     return 0;
