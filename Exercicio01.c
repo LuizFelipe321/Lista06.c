@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float vetor[5]; //
+    float vetor[5]; 
     float vetorDobro[5];
     int i;
 
