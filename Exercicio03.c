@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int atividade03() {
+int main() {
     int vetor[100]; //100 elementos vetores na variavel vetor
     int i = 0; //contador
     int num = 0;
