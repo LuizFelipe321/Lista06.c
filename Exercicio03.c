@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int atividade03() {
-    int vetor[100]; //100 elementos na variavel vetor
+    int vetor[100]; //100 elementos vetores na variavel vetor
     int i = 0; //contador
     int num = 0;
 
@@ -16,7 +16,7 @@ int atividade03() {
     printf("Conteudo do vetor:\n");
 
     for(i = 0; i < 100; i++) {
-        printf("%d ", vetor[i]); //printa os 100 elementos , valores que nao sao multiplos de 6 e resta valor 6
+        printf("%d ", vetor[i]); //printa os 100 elementos , valores estes que nao sao multiplos de 6 e nem possuem como resto o valor 6
     }
 
     return 0;
