@@ -24,11 +24,11 @@ int main() {
     scanf("%d", &idade);
 
     while (qtd < 60 && idade != 0) {
-        vetor[0] = idade; // minha qtd é igual a 0
+        vetor[0] = idade; // qtd é igual a 0, vetor[qtd]
         soma += idade; //soma das idades
         qtd++; //contador qtd aumenta seu valor de 1 em 1 
 
-        printf("Digite a idade (0 para encerrar): ");
+        printf("Digite a idade (0 para encerrar  ): ");
         scanf("%d", &idade);
     }
 
@@ -43,14 +43,14 @@ int main() {
         printf("\n Idades acima da media:");/*exibe na tela as idades que sao a cima da media*/
         
         for (i = 0; i < qtd; i++) {
-            if (vetor[i] > media) { // verifica se o numero é maior que a media.
-                printf("%d ", vetor[i]);
-          }
-        }
-        }else { // caso receba valor = 0 em idade ou quantidade seja maior que 60 registros
-          printf("Nenhum aluno foi cadastrado.\n");
+           if (vetor[i] > media) { // verifica se o numero é maior que a media.
+             printf("%d ", vetor[i]);
+              }
+             }
+             }else { // caso receba valor = 0 em idade ou quantidade seja maior que 60 registros
+               printf("Nenhum aluno foi cadastrado.\n");
     }
 
-    return 0;
+return 0;
 }
 
